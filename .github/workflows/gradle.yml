@@ -1,12 +1,9 @@
 name: Java CI with Gradle
-
 on:
   push:
     branches: [ "main" ]
-
 permissions:
   contents: read
-  
 env:
   S3_BUCKET_NAME: be-120-tjddnr7760
 
